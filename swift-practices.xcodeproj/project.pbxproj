@@ -22,6 +22,7 @@
 		0EAFA6ED28C6D8CF00F37857 /* swift-practices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-practices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAFA6F328C6D8CF00F37857 /* swift-practices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-practices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EAFA6F528C6D8CF00F37857 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0EAFA70428C6DA4F00F37857 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		0EAFA6E028C6D8CD00F37857 = {
 			isa = PBXGroup;
 			children = (
+				0EAFA70428C6DA4F00F37857 /* LICENSE */,
 				0EAFA6E528C6D8CD00F37857 /* Shared */,
 				0EAFA6F428C6D8CF00F37857 /* macOS */,
 				0EAFA6EE28C6D8CF00F37857 /* Products */,
