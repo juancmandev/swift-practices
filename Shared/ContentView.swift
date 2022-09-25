@@ -8,12 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isContainersActive:Bool = false
+    
     var body: some View {
-        VStack {
-            Text("Hi")
-            Button("Button", action: {
-                print("hi!")
-            })
+        NavigationView {
+            VStack {
+                Text("Hi")
+                
+                Button("Button", action: {
+                    print("hi!")
+                })
+                
+                Button(
+                    action: {
+                        isContainersActive = true
+                    },
+                    label: {
+                        Text("Containers Shortcut")
+                    }
+                )
+                
+                NavigationLink(
+                    destination: Containers(),
+                    isActive: $isContainersActive,
+                    label: {
+                        EmptyView()
+                    }
+                )
+            }
         }
     }
 }
